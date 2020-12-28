@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(253, 186, 40, 0.342),
+      rgba(0, 17, 255, 0.315)
+    ),
+    url('/assets/images/time2.jpg');
+
+  background-size: cover;
+  overflow: hidden;
+}
